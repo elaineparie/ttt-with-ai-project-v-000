@@ -44,13 +44,12 @@ def start
 
   end
 
-  if game.over?
     puts "Do you want to play again? (y/n)"
       again_input = gets.strip
       if again_input == "y"
         start
       end
-    end
+
 
 end
 
