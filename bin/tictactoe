@@ -50,6 +50,7 @@ def start
       if again_input == "y"
         start
       end
+    end
 
 end
 
