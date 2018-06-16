@@ -48,9 +48,9 @@ def start
     puts "Do you want to play again? (y/n)"
       again_input = gets.strip
       if again_input == "y"
-        game.start
-      end 
-    
+        start
+      end
+
 end
 
-start 
+start
