@@ -16,13 +16,14 @@ if input == "0"
   game.play
 
 elsif input == "1"
+
 puts "Do you want to start?(y/n)"
+
 if new_input == "y"
 
 game = Game.new(player_1 = Players::Human.new("X"), player_2 = Players::Computer.new("O"), board = Board.new)
 
 game.play
-
 
 elsif new_input == "n"
 
