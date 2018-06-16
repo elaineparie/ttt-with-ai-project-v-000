@@ -25,6 +25,8 @@ require_relative '../config/environment'
 
   game.play
 
+  puts "Do you want to play again?"
+
   elsif new_input == "N"
 
   game = Game.new(player_1 = Players::Computer.new("X"), player_2 = Players::Human.new("O"), board = Board.new)
