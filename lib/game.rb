@@ -121,5 +121,6 @@ def start
    game = Game.new
    game.play
 end
+end
 
 end
