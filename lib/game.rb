@@ -90,7 +90,7 @@ end
     end
 end
 
-def start
+def self.start
   puts "Welcome to Tic-tac-toe!"
  puts "How many players are there - 0, 1 or 2?"
  input = gets.strip
