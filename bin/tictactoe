@@ -24,7 +24,7 @@ game = Game.new(player_1 = Players::Human.new("X"), player_2 = Players::Computer
 
 game.play
 
-elsif new_input == "n" 
+elsif new_input == "n"
 
 game = Game.new(player_1 = Players::Computer.new("X"), player_2 = Players::Human.new("O"), board = Board.new)
 
@@ -37,9 +37,7 @@ elsif input == "2"
 
   game.play
 
-if game.over?
 puts "Would you like to play again?(y/n)"
-end
 again_input = gets.strip
 
 if again_input == "y"
@@ -48,6 +46,6 @@ if again_input == "y"
 
 elsif again_input == "n"
 end 
-  
+
 
 end
