@@ -23,14 +23,14 @@ if new_input == "y"
 game = Game.new(player_1 = Players::Human.new("X"), player_2 = Players::Computer.new("O"), board = Board.new)
 
 game.play
-puts "Would you like to play again?(y/n)"
+#puts "Would you like to play again?(y/n)"
 
 elsif new_input == "n"
 
 game = Game.new(player_1 = Players::Computer.new("X"), player_2 = Players::Human.new("O"), board = Board.new)
 
 game.play
-end
+#end
 
 elsif input == "2"
 
