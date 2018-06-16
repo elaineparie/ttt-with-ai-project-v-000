@@ -45,6 +45,11 @@ if again_input == "y"
 
   game.play
 
+elsif input == "n"
+end
+  
+end 
+
 elsif new_input == "N"
 
 game = Game.new(player_1 = Players::Computer.new("X"), player_2 = Players::Human.new("O"), board = Board.new)
