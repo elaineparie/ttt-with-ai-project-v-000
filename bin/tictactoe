@@ -38,15 +38,15 @@ elsif input == "2"
 
   game.play
 
-puts "Would you like to play again?(y/n)"
+#puts "Would you like to play again?(y/n)"
 
 
-if again_input == "y"
+#if again_input == "y"
 
-  game.play
+  #game.play
 
-elsif again_input == "n"
-end
+#elsif again_input == "n"
+#end
 
 
 end
