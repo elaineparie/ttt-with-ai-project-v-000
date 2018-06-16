@@ -25,7 +25,7 @@ require_relative '../config/environment'
 
   game.play
 
-  puts "Do you want to play again?"
+  puts "Do you want to play again?(y/n)"
 
   elsif new_input == "N"
 
