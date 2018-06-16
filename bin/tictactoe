@@ -29,7 +29,7 @@ def start
   #if again_input == "y"
 
 
-  elsif new_input == "N"
+elsif new_input == "N" || new_input == "n"
 
   game = Game.new(player_1 = Players::Computer.new("X"), player_2 = Players::Human.new("O"), board = Board.new)
 
