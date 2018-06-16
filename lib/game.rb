@@ -90,10 +90,36 @@ end
     end
 end
 
-#def start
-#  puts "Welcome to Tic-tac-toe!"
-#  puts "How many players are there - 0, 1 or 2?"
-#  input = gets.strip
-#end
+def start
+  puts "Welcome to Tic-tac-toe!"
+ puts "How many players are there - 0, 1 or 2?"
+ input = gets.strip
+  if input == "0"
+   game = Game.new(player_1 = Players::Computer.new("X"), player_2 = Players::Computer.new("O"), board = Board.new)
+   game.play
+ elsif input == "1"
+ puts "Do you want to start?(Y/N)"
+ new_input = gets.strip
+  if new_input == "Y"
+ game = Game.new(player_1 = Players::Human.new("X"), player_2 = Players::Computer.new("O"), board = Board.new)
+ game.play
+ game = Game.new(player_1 = Players::Computer.new("X"), player_2 = Players::Computer.new("O"), board = Board.new)
+ game.play
+   elsif input == "1"
+   puts "Do you want to start?(Y/N)"
+   new_input = gets.strip
+   if new_input == "Y"
+   game = Game.new(player_1 = Players::Human.new("X"), player_2 = Players::Computer.new("O"), board = Board.new)
+   game.play
+ elsif input == "n"
+ end
+ elsif new_input == "N"
+ game = Game.new(player_1 = Players::Computer.new("X"), player_2 = Players::Human.new("O"), board = Board.new)
+ game.play
+ end
+ elsif input == "2"
+   game = Game.new
+   game.play
+end
 
 end
