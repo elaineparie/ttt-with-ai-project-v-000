@@ -30,7 +30,7 @@ elsif new_input == "n"
 game = Game.new(player_1 = Players::Computer.new("X"), player_2 = Players::Human.new("O"), board = Board.new)
 
 game.play
-#end
+end
 
 elsif input == "2"
 
