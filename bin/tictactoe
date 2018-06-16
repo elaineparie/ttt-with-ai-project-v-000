@@ -16,7 +16,6 @@ if input == "0"
   game.play
 
 elsif input == "1"
-
 puts "Do you want to start?(y/n)"
 if new_input == "y"
 
